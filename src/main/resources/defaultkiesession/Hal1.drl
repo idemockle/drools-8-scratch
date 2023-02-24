@@ -15,7 +15,7 @@
 
 package org.drools.example.api.defaultkiesession
 
-import org.drools.example.api.defaultkiesession.Message
+import com.github.idemockle.drools8.ruleobjects.Message
 
 global java.io.PrintStream out
 

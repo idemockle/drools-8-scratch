@@ -17,7 +17,17 @@
     <dependencies>
         <dependency>
             <groupId>org.drools</groupId>
-            <artifactId>drools-engine-classic</artifactId>
+            <artifactId>drools-engine</artifactId>
+            <version>8.34.0.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-xml-support</artifactId>
+            <version>8.34.0.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-mvel</artifactId>
             <version>8.34.0.Final</version>
         </dependency>
         <dependency>

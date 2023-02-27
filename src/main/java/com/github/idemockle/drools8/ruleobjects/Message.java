@@ -5,7 +5,5 @@ import lombok.NonNull;
 
 @Data
 public class Message {
-    @NonNull private String name;
-    @NonNull private String text;
-
+    @NonNull private Integer number;
 }

@@ -13,7 +13,7 @@ public class MainApp {
 
         KieSession kSession = kContainer.newKieSession();
         kSession.setGlobal("out", System.out);
-        kSession.insert(new Message("Dave", "Hello, HAL. Do you read me, HAL?"));
+        kSession.insert(new Message(6));
         kSession.fireAllRules();
     }
 }
